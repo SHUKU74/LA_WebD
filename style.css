@@ -1,0 +1,196 @@
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    position: fixed;
+    width: 100vw;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+
+header p{
+    font-size: 24px;
+    font-weight: bold;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+header ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+header a{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.firstView h1{
+    font-size: 64px;
+    text-align: center;
+    padding-top: 320px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.firstView{
+    background-image: url(images/bg1.jpeg);
+    background-size: cover;
+    height: 800px;
+}
+
+.about{
+    padding: 180px;
+}
+.profile h2{
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    color: #000;
+    border-bottom: 3px solid #000;
+    display: inline-block;
+}
+
+.profile ul{
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+.profile img{
+    width: 480px;
+    height: 270px;
+    margin-left: 100px;
+
+}
+
+.profile-text{
+    width: 400px;
+    float: left;
+}
+
+.clearfix{
+    display: block;
+    clear: both;
+}
+
+.school-club{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.school-club img{
+    width: 480px;
+    height: 270px;
+    border-radius: 16px;
+}
+
+.school-club p{
+    margin-top: 16px;
+}
+
+.school-club a{
+    display: inline-block;
+    border-bottom: 1px solid;
+    margin-top: 32px;
+}
+
+.favorite{
+    text-align: center;
+    padding: 180px 180px 240px 180px;
+    background-image: url(images/bg2.jpeg);
+    background-size: cover;
+}
+
+.favorite h2{
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    color: #000;
+    border-bottom: 3px solid #000;
+    display: inline-block;
+}
+
+.favorite-contents{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.favorite-content {
+    width: 320px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+}
+
+.favorite-content img{
+    width: 200px;
+    height: 200px;
+
+}
+
+.favorite-content h3{
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.favorite-content p{
+    font-size: 16px;
+    text-align: left;
+    margin-top: 32px;
+}
+
+.contact{
+    padding: 180px 370px;
+    text-align: center;
+}
+
+.contact h2{
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    color: #000;
+    border-bottom: 3px solid #000;
+    display: inline-block;
+}
+
+.contact a{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    width: 200px;
+    line-height: 80px;
+    display: inline-block;
+}
+
+
+.contact .sns-facebook{
+    background-color: #3b5998;
+}
+
+
+.contact .sns{
+    margin-top: 100px;
+
+}
+
+footer{
+    height: 80px;
+    background-color: #edece7;
+    line-height: 80px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
